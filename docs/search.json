@@ -1,0 +1,41 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bcon 14: Special topics in business economics",
+    "section": "",
+    "text": "Class schedule: Tuesday and Friday | 14:00 - 17:30  Instructor: Christopher Llones  e-mail: christopher.llones@vsu.edu.ph  Course credits: 3 units  Number of hours: 2 hrs lectures \n\n\nCourse description\nThis course provides Business Economics majors with the necessary skills for advanced data analytics and visualization using R programming.\n\n\nCourse objectives\n\nDevelop proficiency in R programming with an emphasis on data wrangling and visualization.\nApply advanced data analysis techniques to business economics problems.\nDesign and interpret data visualizations that communicate insights effectively.\nHandle real-world economic datasets and make data-driven decisions.\nComplete a comprehensive capstone project that integrates course concepts.\n\n\n\nCourse outline",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "00-m0-intro-r.html",
+    "href": "00-m0-intro-r.html",
+    "title": "Intro to R programming",
+    "section": "",
+    "text": "R objects\nR packages\nReading data in R\nBasic data wrangling\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Introduction to R programming"
+    ]
+  },
+  {
+    "objectID": "00-m0-intro-data-viz-ggplot.html",
+    "href": "00-m0-intro-data-viz-ggplot.html",
+    "title": "Intro to data visualization using ggplot2",
+    "section": "",
+    "text": "The grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Intro to data visualization using ggplot2"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]

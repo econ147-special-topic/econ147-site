@@ -1,19 +1,40 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "econ147-site-temporary"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  page-navigation: true
+  title: "Econ 148"
+  favicon: "plot/Bcon147-hex-logo.png"
+  
+  repo-url: https://github.com/econ147-special-topic/econ147-site
+  site-url: https://econ147-special-topic/econ147-site
+  
+  sidebar:
+    style: docked
+    pinned: true
+    seacrh: true
+    logo: "plot/Bcon147-hex-logo.png"
+    contents:
+      - href: "index.qmd"
+        text: "Home"
+      - section: "Topics"
+        contents:
+          - href: "00-m0-intro-r.qmd"
+            text: "Introduction to R programming"
+          - href: "00-m0-intro-data-viz-ggplot.qmd"
+            text: "Intro to data visualization using ggplot2"
+
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, dark-style.scss]
+    mainfont: "Arial"
+    code-copy: true
+    code-overflow: wrap
     toc: true
 
+freeze: auto
 editor: visual
-

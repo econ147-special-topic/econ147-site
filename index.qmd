@@ -1,11 +1,32 @@
 ---
-title: "econ147-site-temporary"
+title: "Bcon 14: Special topics in business economics"
 ---
 
-This is a Quarto website.
+<br>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**Class schedule:** Tuesday and Friday \| 14:00 - 17:30 <br>
+**Instructor:** Christopher Llones <br>
+**e-mail:** christopher.llones\@vsu.edu.ph <br>
+**Course credits:** 3 units <br>
+**Number of hours:** 2 hrs lectures <br>
 
-```{r}
-1 + 1
-```
+------------------------------------------------------------------------
+
+### Course description
+
+This course provides Business Economics majors with the necessary skills for advanced data analytics and visualization using R programming.
+
+
+### Course objectives
+
+- Develop proficiency in R programming with an emphasis on data wrangling and visualization.
+
+- Apply advanced data analysis techniques to business economics problems.
+
+- Design and interpret data visualizations that communicate insights effectively.
+
+- Handle real-world economic datasets and make data-driven decisions.
+
+- Complete a comprehensive capstone project that integrates course concepts.
+
+### Course outline
