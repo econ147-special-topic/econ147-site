@@ -4,11 +4,7 @@ title: "Bcon 14: Special topics in business economics"
 
 <br>
 
-**Class schedule:** Tuesday and Friday \| 14:00 - 17:30 <br>
-**Instructor:** Christopher Llones <br>
-**e-mail:** christopher.llones\@vsu.edu.ph <br>
-**Course credits:** 3 units <br>
-**Number of hours:** 2 hrs lectures <br>
+**Class schedule:** Tuesday \| 13:00 - 16:00 <br> **Instructor:** Christopher Llones <br> **e-mail:** christopher.llones\@vsu.edu.ph <br> **Course credits:** 3 units <br> **Number of hours:** 3 hrs lectures <br>
 
 ------------------------------------------------------------------------
 
@@ -16,17 +12,63 @@ title: "Bcon 14: Special topics in business economics"
 
 This course provides Business Economics majors with the necessary skills for advanced data analytics and visualization using R programming.
 
-
 ### Course objectives
 
-- Develop proficiency in R programming with an emphasis on data wrangling and visualization.
-
-- Apply advanced data analysis techniques to business economics problems.
-
-- Design and interpret data visualizations that communicate insights effectively.
-
-- Handle real-world economic datasets and make data-driven decisions.
-
-- Complete a comprehensive capstone project that integrates course concepts.
+-   Develop proficiency in R programming with an emphasis on data wrangling and visualization.
+-   Apply advanced data analysis techniques to business economics problems.
+-   Design and interpret data visualizations that communicate insights effectively.
+-   Handle real-world economic datasets and make data-driven decisions.
+-   Complete a comprehensive capstone project that integrates course concepts.
 
 ### Course outline
+
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Topics                                                            | Lessons                                                                   | Description                                                                                                 |
++===================================================================+===========================================================================+=============================================================================================================+
+| Module 1: Introduction to R programming                           | 1.  Overview of R programming and its application                         | 1.  Understand the role of R in data analytics for business economics.                                      |
+|                                                                   | 2.  Introduction to R syntax, data types and structures                   | 2.  Set up and understand R data types and structures.                                                      |
+|                                                                   | 3.  Reading data into R                                                   | 3.  Importing and cleaning data.                                                                            |
+|                                                                   | 4.  Basic R operation and data manipulation                               | 4.  Perform basic operation and data management with R.                                                     |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Module 2: Reproducible analysis in R                              | 1.  Introduction to reproducibility in research                           | 1.  Understand the importance of reproducibility in data analysis                                           |
+|                                                                   | 2.  Setting up and working with Quarto for reproducible reporting         | 2.  Set up and use Quarto to create reproducible reports.                                                   |
+|                                                                   | 3.  Integrating code, text and visualization in quarto document           | 3.  Generate report with embedded code, text, and visualization in Quarto document.                         |
+|                                                                   | 4.  Hosting and publishing reports on GitHub                              | 4.  Generate and publish online reports hosted in GitHub.                                                   |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Module 3: Data wrangling with R                                   | 1.  Introduction to data wrangling and manipulation                       | 1.  Grasps the importance of data wrangling in the analysis process.                                        |
+|                                                                   | 2.  Data manipulation and reshaping                                       | 2.  Apply functions to wrangle and summarize data.                                                          |
+|                                                                   | 3.  Data merging and joining                                              | 3.  Merge and join dataset efficiently.                                                                     |
+|                                                                   | 4.  String manipulation and text processing.                              | 4.  Wrangle and clean textual data.                                                                         |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Module 4: Introduction to data visualization with ggplot2         | 1.  The `ggplot2` grammar of graphics.                                    | 1.  Understand the core principles of data visualization and its significance.                              |
+|                                                                   | 2.  Dataset and mapping                                                   | 2.  Use `ggplot2` package to create foundation plot.                                                        |
+|                                                                   | 3.  Geometries                                                            | 3.  Customize visualizations                                                                                |
+|                                                                   | 4.  Statistical transformation and plotting distribution                  | 4.  Develop effective visualizations to communicate data insights.                                          |
+|                                                                   | 5.  Position and adjustment scales                                        |                                                                                                             |
+|                                                                   | 6.  Coordinates and themes                                                |                                                                                                             |
+|                                                                   | 7.  Facets and custom plots                                               |                                                                                                             |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Module 5: EDA and visualizing relationships and trends            | 1.  Summary statistics and visualizing distribution.                      | 1.  Perform summary statistics and visualizations to explore data.                                          |
+|                                                                   | 2.  Correlation and regression visualizations.                            | 2.  Visualize and interpret relationships between variables.                                                |
+|                                                                   | 3.  Interactive visualization with `plotly`.                              | 3.  Explore the basics of interactive visualizations using `plotly`.                                        |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Module 6: Cluster analysis and principal component analysis (PCA) | 1.  Introduction to cluster analysis and techniques.                      | 1.  Understand the fundamental concepts of cluster analysis and its techniques (e.g., K-mean, hierarchical) |
+|                                                                   | 2.  Introduction to principal component analysis.                         | 2.  Understand the principles of PCA for dimensionality reduction.                                          |
+|                                                                   | 3.  Cluster analysis and PCA applications.                                | 3.  Apply cluster analysis and PCA to real-world business economics problems.                               |
+|                                                                   | 4.  Reporting and communicating cluster and PCA results.                  | 4.  Develop skills to effectively communicate findings of cluster analysis and PCA.                         |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Model 7: Structural equation modeling                             | 1.  Introduction to SEM.                                                  | 1.  Understand the fundamental concepts of SEM.                                                             |
+|                                                                   | 2.  Building SEM models: path diagrams and model specifications.          | 2.  Learn how to create path diagrams in SEM.                                                               |
+|                                                                   | 3.  Model specification and estimation for CB and PLS SEM models.         | 3.  Learn model specification and apply estimation methods to fit CB and PLS SEM models.                    |
+|                                                                   | 4.  Model evaluation and diagnostics.                                     | 4.  Evaluate and conduct diagnostics for model specifications and overall fit.                              |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Module 8: Introduction to text analysis                           | 1.  Introduction to text data and its significance in business economics. | 1.  Understand the role of text analysis in business economics.                                             |
+|                                                                   | 2.  Text processing: tokenization, stemming, and stop-word                | 2.  Learn how to preprocess textual data for analysis.                                                      |
+|                                                                   | 3.  Introduction to sentiment analysis                                    | 3.  Conduct sentiment analysis.                                                                             |
+|                                                                   | 4.  Visualizing textual data                                              | 4.  Visualize text data insights.                                                                           |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
+| Module 9: Time series and forecasting                             | 1.  Time series decomposition and visualization.                          | 1.  Decompose and visualize time series data components.                                                    |
+|                                                                   | 2.  Smoothing techniques                                                  | 2.  Apply smoothing techniques to analyze trends and seasonality.                                           |
+|                                                                   | 3.  Forecasting                                                           | 3.  Use time series models to forecasts economic indicators.                                                |
+|                                                                   | 4.  Visualizing forecasts and uncertainty.                                | 4.  Visualize forecasts results and communicate uncertainty.                                                |
++-------------------------------------------------------------------+---------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+
