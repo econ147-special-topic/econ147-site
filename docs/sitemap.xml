@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://econ147-special-topic/econ147-site/index.html</loc>
+    <lastmod>2024-08-25T04:19:10.657Z</lastmod>
+  </url>
+  <url>
     <loc>https://econ147-special-topic/econ147-site/00-m0-intro-r.html</loc>
     <lastmod>2024-09-03T00:32:13.627Z</lastmod>
+  </url>
+  <url>
+    <loc>https://econ147-special-topic/econ147-site/00-m0-intro-data-viz-ggplot.html</loc>
+    <lastmod>2024-08-20T04:47:52.001Z</lastmod>
   </url>
   <url>
     <loc>https://econ147-special-topic/econ147-site/about.html</loc>

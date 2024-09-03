@@ -4,7 +4,7 @@ project:
 
 website:
   page-navigation: true
-  title: "Econ 148"
+  title: "Bcon 147"
   favicon: "plot/Bcon147-hex-logo.png"
   
   repo-url: https://github.com/econ147-special-topic/econ147-site
