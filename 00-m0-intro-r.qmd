@@ -60,3 +60,48 @@ Please make sure to install the required packages before the class starts, as we
 
 :::
 
+
+## Class demonstration in progress
+
+```{.r}
+# INTRO TO R AND BASIC DATA WRANGLING ----
+
+## Install packages
+# install.packages("readr")
+# install.packages(c("janitor", "readxl", "haven", "tidyverse", "skimr"))
+
+
+# 1. R Packages ----
+library(readr) # reading csv files librar
+library(readxl) # reading excel files
+library(haven) # reading spss, sas, stata files
+library(tidyverse) # load all packages under tidyverse environment
+library(dplyr) # for data wrangling
+library(skimr) # quick exploration of your data
+library(janitor) # quick cleaning of dataset
+
+
+# 2. Set the working directory ----
+setwd("D:/Githu-repository/econ147-special-topic-bcon/econ147-class-exercise-demo/class-demo-exercise/00-module-intro-r")
+
+
+# 3. Reading data into R ----
+
+## 3.1 CSV files
+### Load swimming_pools.csv files using the read_csv() function
+swimming_data <- read_csv("sample_dataset/swimming_pools.csv") 
+
+
+### Load potatoes.csv using read_csv() and read.csv()
+#### Observe the difference in the output
+potatoes_data <- read_csv("sample_dataset/potatoes.csv") 
+
+
+
+## 3.2 Excel files
+### Load urban_pop files and use the read_xls() and read_excel() functions
+### Save the data into a variable named urban_pop
+
+```
+
+
