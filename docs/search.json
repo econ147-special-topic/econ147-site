@@ -10,6 +10,39 @@
     ]
   },
   {
+    "objectID": "00-m0-reproducible-quarto.html",
+    "href": "00-m0-reproducible-quarto.html",
+    "title": "Reproducible report with Quarto in R",
+    "section": "",
+    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Reproducible report with Quarto in R"
+    ]
+  },
+  {
+    "objectID": "00-m0-intro-data-viz-ggplot.html",
+    "href": "00-m0-intro-data-viz-ggplot.html",
+    "title": "Intro to data visualization using ggplot2",
+    "section": "",
+    "text": "The grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\nView slides in new window",
+    "crumbs": [
+      "Topics",
+      "Intro to data visualization using ggplot2"
+    ]
+  },
+  {
+    "objectID": "00-m0-intro-data-viz-ggplot.html#class-demonstration",
+    "href": "00-m0-intro-data-viz-ggplot.html#class-demonstration",
+    "title": "Intro to data visualization using ggplot2",
+    "section": "Class demonstration",
+    "text": "Class demonstration\n# libraries\nlibrary(tidyverse)\nlibrary(babynames)\n\n## select names\nfriends &lt;- babynames %&gt;% \n  filter(year &gt;= 1950,\n         name %in% c(\"Christopher\", \"Dave\", \"Karl\"),\n         sex == \"M\")\n\n## plotting trends\nggplot(data = friends,\n       mapping = aes(x = year, y = n, color = name)) +\n  geom_line(linetype = \"dashed\") +\n  geom_point(size = 4, alpha = 0.5) +\n  scale_y_log10() +\n  theme_minimal() +\n  theme(axis.title = element_text(size = 24),\n        axis.text = element_text(size = 16),\n        legend.text = element_text(size = 16),\n        legend.title = element_text(size = 18)\n        )\n\n\n\n\n\n\n\n\n\n\n# libraries\nlibrary(tidyverse)\n\n## calculating mean hwy per class\nmean_hwy_data &lt;- mpg %&gt;% \n  group_by(class) %&gt;% \n  summarise(mean_hwy = mean(hwy, na.rm = TRUE))\n\nggplot(data = mpg,\n       mapping = aes(x = class, y = hwy, color = class)) +\n  geom_point(position = \"jitter\", size = 3, alpha = 0.5) +\n  geom_point(data = mean_hwy_data, aes(y = mean_hwy), size = 7) +\n  labs(title = \"Fuel consumption per class vehicle\",\n       x = \"Class of vehicle\",\n       y = \"Highway fuel consumption\") +\n  theme_minimal() +\n  theme(plot.title = element_text(size = 24),\n        axis.title = element_text(size = 24),\n        axis.text = element_text(size = 16),\n        legend.text = element_text(size = 16),\n        legend.title = element_text(size = 18)\n        )\n\n\n\n\n\n\n\n\n\n\n## libraries\nlibrary(tidyverse)\n\n## histogram plot\n\nggplot(data = mpg, \n       mapping = aes(x = displ)) +\n  geom_histogram(bins = 10, fill = \"cadetblue3\", alpha = 0.5) + \n  geom_text(aes(label = after_stat(count)),\n            stat = \"bin\", \n            bins = 10, \n            nudge_y = 2) +\n  theme_minimal() +\n  theme(axis.text = element_text(size = 14),\n        axis.title = element_text(size = 16),\n        legend.text = element_text(size = 14),\n        legend.title = element_text(size = 16)\n        )\n\n\n\n\n\n\n\n\n\n\n## libraries\nlibrary(tidyverse)\n\nggplot(data = mpg, \n       mapping = aes(x = hwy, y = class)) +\n  geom_violin(aes(fill = class),\n              show.legend = FALSE,\n              color = NA,\n              alpha = 0.5) +\n  geom_boxplot(width = 0.2, \n               fill = NA) +\n  scale_fill_viridis_d() +\n  theme_minimal() +\n  theme(axis.text = element_text(size = 14),\n        axis.title = element_text(size = 16),\n        legend.text = element_text(size = 14),\n        legend.title = element_text(size = 16)\n        )\n\n\n\n\n\n\n\n\n\n\n# libraries\nlibrary(tidyverse)\n\n# Create some data\ndf &lt;- data.frame(supp=rep(c(\"VC\", \"OJ\"), each=3),\n                dose=rep(c(\"0.5\", \"1\", \"2\"),2),\n                len=c(6.8, 15, 33, 4.2, 10, 29.5))\n\n# barplot\nggplot(df, aes(x = dose, y = len, fill = supp)) + \n  geom_bar(stat = \"identity\",\n           position = \"dodge\",\n           width = 0.5) +\n  scale_fill_brewer(palette = \"Paired\") +\n  theme_minimal()",
+    "crumbs": [
+      "Topics",
+      "Intro to data visualization using ggplot2"
+    ]
+  },
+  {
     "objectID": "00-m0-intro-r.html",
     "href": "00-m0-intro-r.html",
     "title": "Intro to R programming",
@@ -51,28 +84,6 @@
     "crumbs": [
       "Topics",
       "Introduction to R programming"
-    ]
-  },
-  {
-    "objectID": "00-m0-intro-data-viz-ggplot.html",
-    "href": "00-m0-intro-data-viz-ggplot.html",
-    "title": "Intro to data visualization using ggplot2",
-    "section": "",
-    "text": "The grammar of graphics\nDatasets and mapping\nGeometries\nStatistical transformation and plotting distribution\nPosition adjustment and scales\nCoordinates and themes\nFacets and custom plots\nView slides in new window",
-    "crumbs": [
-      "Topics",
-      "Intro to data visualization using ggplot2"
-    ]
-  },
-  {
-    "objectID": "00-m0-intro-data-viz-ggplot.html#class-demonstration",
-    "href": "00-m0-intro-data-viz-ggplot.html#class-demonstration",
-    "title": "Intro to data visualization using ggplot2",
-    "section": "Class demonstration",
-    "text": "Class demonstration\n# libraries\nlibrary(tidyverse)\nlibrary(babynames)\n\n## select names\nfriends &lt;- babynames %&gt;% \n  filter(year &gt;= 1950,\n         name %in% c(\"Christopher\", \"Dave\", \"Karl\"),\n         sex == \"M\")\n\n## plotting trends\nggplot(data = friends,\n       mapping = aes(x = year, y = n, color = name)) +\n  geom_line(linetype = \"dashed\") +\n  geom_point(size = 4, alpha = 0.5) +\n  scale_y_log10() +\n  theme_minimal() +\n  theme(axis.title = element_text(size = 24),\n        axis.text = element_text(size = 16),\n        legend.text = element_text(size = 16),\n        legend.title = element_text(size = 18)\n        )\n\n\n\n\n\n\n\n\n\n\n# libraries\nlibrary(tidyverse)\n\n## calculating mean hwy per class\nmean_hwy_data &lt;- mpg %&gt;% \n  group_by(class) %&gt;% \n  summarise(mean_hwy = mean(hwy, na.rm = TRUE))\n\nggplot(data = mpg,\n       mapping = aes(x = class, y = hwy, color = class)) +\n  geom_point(position = \"jitter\", size = 3, alpha = 0.5) +\n  geom_point(data = mean_hwy_data, aes(y = mean_hwy), size = 7) +\n  labs(title = \"Fuel consumption per class vehicle\",\n       x = \"Class of vehicle\",\n       y = \"Highway fuel consumption\") +\n  theme_minimal() +\n  theme(plot.title = element_text(size = 24),\n        axis.title = element_text(size = 24),\n        axis.text = element_text(size = 16),\n        legend.text = element_text(size = 16),\n        legend.title = element_text(size = 18)\n        )\n\n\n\n\n\n\n\n\n\n\n## libraries\nlibrary(tidyverse)\n\n## histogram plot\n\nggplot(data = mpg, \n       mapping = aes(x = displ)) +\n  geom_histogram(bins = 10, fill = \"cadetblue3\", alpha = 0.5) + \n  geom_text(aes(label = after_stat(count)),\n            stat = \"bin\", \n            bins = 10, \n            nudge_y = 2) +\n  theme_minimal() +\n  theme(axis.text = element_text(size = 14),\n        axis.title = element_text(size = 16),\n        legend.text = element_text(size = 14),\n        legend.title = element_text(size = 16)\n        )",
-    "crumbs": [
-      "Topics",
-      "Intro to data visualization using ggplot2"
     ]
   },
   {
