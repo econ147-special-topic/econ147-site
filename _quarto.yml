@@ -26,6 +26,8 @@ website:
             text: "Intro to data visualization using ggplot2"
           - href: "00-m0-reproducible-quarto.qmd"
             text: "Reproducible report with Quarto in R"
+          - href: "00-midterm-project.qmd"
+            text: "Midterm project exercise"
 
 
 format:
