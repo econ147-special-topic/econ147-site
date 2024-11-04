@@ -28,6 +28,8 @@ website:
             text: "Reproducible report with Quarto in R"
           - href: "00-midterm-project.qmd"
             text: "Midterm project exercise"
+          - href: "00-efa.qmd"
+            text: "Exploratory factor analysis"
 
 
 format:

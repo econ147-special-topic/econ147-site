@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bcon 147: Special topics in business economics – Bcon 147</title>
+<title>Exploratory factor analysis – Bcon 147</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./00-m0-intro-r.html" rel="next">
+<link href="./00-midterm-project.html" rel="prev">
 <link href="./plot/Bcon147-hex-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-efa.html">Exploratory factor analysis</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./00-efa.html" class="sidebar-item-text sidebar-link">
+  <a href="./00-efa.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Exploratory factor analysis</span></a>
   </div>
 </li>
@@ -162,23 +162,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course description</a></li>
-  <li><a href="#course-objectives" id="toc-course-objectives" class="nav-link" data-scroll-target="#course-objectives">Course objectives</a></li>
-  <li><a href="#course-outline" id="toc-course-outline" class="nav-link" data-scroll-target="#course-outline">Course outline</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-efa.html">Exploratory factor analysis</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Bcon 147: Special topics in business economics</h1>
+<h1 class="title">Exploratory factor analysis</h1>
 </div>
 
 
@@ -195,177 +187,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br></p>
-<p><strong>Class schedule:</strong> Tuesday | 13:00 - 16:00 <br> <strong>Instructor:</strong> Christopher Llones <br> <strong>e-mail:</strong> christopher.llones@vsu.edu.ph <br> <strong>Course credits:</strong> 3 units <br> <strong>Number of hours:</strong> 3 hrs lectures <br></p>
-<hr>
-<section id="course-description" class="level3">
-<h3 class="anchored" data-anchor-id="course-description">Course description</h3>
-<p>This course provides Business Economics majors with the necessary skills for advanced data analytics and visualization using R programming.</p>
-</section>
-<section id="course-objectives" class="level3">
-<h3 class="anchored" data-anchor-id="course-objectives">Course objectives</h3>
+<ol type="1">
+<li><p>Objectives of factor analysis</p></li>
+<li><p>Designing an Exploratory factor analysis</p></li>
+<li><p>Assumptions in Exploratory factor analysis</p></li>
+<li><p>Deriving factors and assessing overall fit</p></li>
+<li><p>Interpreting the factors</p></li>
+</ol>
+<p><a href="https://econ147-special-topic.github.io/econ147-lecture/efa" target="_blank" class="btn-slides">View slides in new window</a></p>
+<div class="box" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+<iframe width="100%" height="100%" src="https://econ147-special-topic.github.io/econ147-lecture/efa" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
+</iframe>
+</div>
+<section id="presentation-keyboard-shortcuts" class="level4">
+<h4 class="anchored" data-anchor-id="presentation-keyboard-shortcuts">Presentation keyboard shortcuts</h4>
+<div class="text-line-space">
 <ul>
-<li>Develop proficiency in R programming with an emphasis on data wrangling and visualization.</li>
-<li>Apply advanced data analysis techniques to business economics problems.</li>
-<li>Design and interpret data visualizations that communicate insights effectively.</li>
-<li>Handle real-world economic datasets and make data-driven decisions.</li>
-<li>Complete a comprehensive capstone project that integrates course concepts.</li>
+<li>
+Use <kbd>←</kbd> and <kbd>→</kbd> to navigate through the slides
+</li>
+<li>
+Use <kbd>F</kbd> to toggle full screen
+</li>
+<li>
+Use <kbd>O</kbd> to view an overview of all slides
+</li>
+<li>
+Use <kbd>?</kbd> to see a list of other shortcuts
+</li>
 </ul>
-</section>
-<section id="course-outline" class="level3">
-<h3 class="anchored" data-anchor-id="course-outline">Course outline</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 26%">
-<col style="width: 29%">
-<col style="width: 43%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Topics</th>
-<th>Lessons</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Module 1: Introduction to R programming</td>
-<td><ol type="1">
-<li>Overview of R programming and its application</li>
-<li>Introduction to R syntax, data types and structures</li>
-<li>Reading data into R</li>
-<li>Basic R operation and data manipulation</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the role of R in data analytics for business economics.</li>
-<li>Set up and understand R data types and structures.</li>
-<li>Importing and cleaning data.</li>
-<li>Perform basic operation and data management with R.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Module 2: Reproducible analysis in R</td>
-<td><ol type="1">
-<li>Introduction to reproducibility in research</li>
-<li>Setting up and working with Quarto for reproducible reporting</li>
-<li>Integrating code, text and visualization in quarto document</li>
-<li>Hosting and publishing reports on GitHub</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the importance of reproducibility in data analysis</li>
-<li>Set up and use Quarto to create reproducible reports.</li>
-<li>Generate report with embedded code, text, and visualization in Quarto document.</li>
-<li>Generate and publish online reports hosted in GitHub.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 3: Data wrangling with R</td>
-<td><ol type="1">
-<li>Introduction to data wrangling and manipulation</li>
-<li>Data manipulation and reshaping</li>
-<li>Data merging and joining</li>
-<li>String manipulation and text processing.</li>
-</ol></td>
-<td><ol type="1">
-<li>Grasps the importance of data wrangling in the analysis process.</li>
-<li>Apply functions to wrangle and summarize data.</li>
-<li>Merge and join dataset efficiently.</li>
-<li>Wrangle and clean textual data.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Module 4: Introduction to data visualization with ggplot2</td>
-<td><ol type="1">
-<li>The <code>ggplot2</code> grammar of graphics.</li>
-<li>Dataset and mapping</li>
-<li>Geometries</li>
-<li>Statistical transformation and plotting distribution</li>
-<li>Position and adjustment scales</li>
-<li>Coordinates and themes</li>
-<li>Facets and custom plots</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the core principles of data visualization and its significance.</li>
-<li>Use <code>ggplot2</code> package to create foundation plot.</li>
-<li>Customize visualizations</li>
-<li>Develop effective visualizations to communicate data insights.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 5: EDA and visualizing relationships and trends</td>
-<td><ol type="1">
-<li>Summary statistics and visualizing distribution.</li>
-<li>Correlation and regression visualizations.</li>
-<li>Interactive visualization with <code>plotly</code>.</li>
-</ol></td>
-<td><ol type="1">
-<li>Perform summary statistics and visualizations to explore data.</li>
-<li>Visualize and interpret relationships between variables.</li>
-<li>Explore the basics of interactive visualizations using <code>plotly</code>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Module 6: Cluster analysis and principal component analysis (PCA)</td>
-<td><ol type="1">
-<li>Introduction to cluster analysis and techniques.</li>
-<li>Introduction to principal component analysis.</li>
-<li>Cluster analysis and PCA applications.</li>
-<li>Reporting and communicating cluster and PCA results.</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the fundamental concepts of cluster analysis and its techniques (e.g., K-mean, hierarchical)</li>
-<li>Understand the principles of PCA for dimensionality reduction.</li>
-<li>Apply cluster analysis and PCA to real-world business economics problems.</li>
-<li>Develop skills to effectively communicate findings of cluster analysis and PCA.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Model 7: Structural equation modeling</td>
-<td><ol type="1">
-<li>Introduction to SEM.</li>
-<li>Building SEM models: path diagrams and model specifications.</li>
-<li>Model specification and estimation for CB and PLS SEM models.</li>
-<li>Model evaluation and diagnostics.</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the fundamental concepts of SEM.</li>
-<li>Learn how to create path diagrams in SEM.</li>
-<li>Learn model specification and apply estimation methods to fit CB and PLS SEM models.</li>
-<li>Evaluate and conduct diagnostics for model specifications and overall fit.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Module 8: Introduction to text analysis</td>
-<td><ol type="1">
-<li>Introduction to text data and its significance in business economics.</li>
-<li>Text processing: tokenization, stemming, and stop-word</li>
-<li>Introduction to sentiment analysis</li>
-<li>Visualizing textual data</li>
-</ol></td>
-<td><ol type="1">
-<li>Understand the role of text analysis in business economics.</li>
-<li>Learn how to preprocess textual data for analysis.</li>
-<li>Conduct sentiment analysis.</li>
-<li>Visualize text data insights.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 9: Time series and forecasting</td>
-<td><ol type="1">
-<li>Time series decomposition and visualization.</li>
-<li>Smoothing techniques</li>
-<li>Forecasting</li>
-<li>Visualizing forecasts and uncertainty.</li>
-</ol></td>
-<td><ol type="1">
-<li>Decompose and visualize time series data components.</li>
-<li>Apply smoothing techniques to analyze trends and seasonality.</li>
-<li>Use time series models to forecasts economic indicators.</li>
-<li>Visualize forecasts results and communicate uncertainty.</li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+</div>
 
 
 </section>
@@ -937,11 +788,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./00-midterm-project.html" class="pagination-link" aria-label="Midterm project exercise">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Midterm project exercise</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./00-m0-intro-r.html" class="pagination-link" aria-label="Introduction to R programming">
-        <span class="nav-page-text">Introduction to R programming</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

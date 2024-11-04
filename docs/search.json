@@ -120,6 +120,17 @@
     ]
   },
   {
+    "objectID": "00-efa.html",
+    "href": "00-efa.html",
+    "title": "Exploratory factor analysis",
+    "section": "",
+    "text": "Objectives of factor analysis\nDesigning an Exploratory factor analysis\nAssumptions in Exploratory factor analysis\nDeriving factors and assessing overall fit\nInterpreting the factors\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "crumbs": [
+      "Topics",
+      "Exploratory factor analysis"
+    ]
+  },
+  {
     "objectID": "00-m0-intro-data-viz-ggplot.html",
     "href": "00-m0-intro-data-viz-ggplot.html",
     "title": "Intro to data visualization using ggplot2",
