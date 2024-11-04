@@ -10,6 +10,8 @@ title: "Reproducible report with Quarto in R"
 
 4.  Improving report
 
+Download the R project file for this module [here](https://drive.google.com/drive/folders/1TxSHIh7c5yVlcxQH32ui9-rnoqoWC0wH?usp=sharing).
+
 <a href="https://econ147-special-topic.github.io/econ147-lecture/module-reproducible-report" target="_blank" class="btn-slides">View slides in new window</a>
 
 ::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}

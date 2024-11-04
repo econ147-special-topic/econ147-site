@@ -124,7 +124,7 @@
     "href": "00-efa.html",
     "title": "Exploratory factor analysis",
     "section": "",
-    "text": "Objectives of factor analysis\nDesigning an Exploratory factor analysis\nAssumptions in Exploratory factor analysis\nDeriving factors and assessing overall fit\nInterpreting the factors\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "text": "Objectives of factor analysis\nDesigning an Exploratory factor analysis\nAssumptions in Exploratory factor analysis\nDeriving factors and assessing overall fit\nInterpreting the factors\n\n\n\n\n\n\n\nNote\n\n\n\nDownload the R project file for this module here.\n\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
     "crumbs": [
       "Topics",
       "Exploratory factor analysis"
@@ -157,7 +157,7 @@
     "href": "00-m0-reproducible-quarto.html",
     "title": "Reproducible report with Quarto in R",
     "section": "",
-    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
+    "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nDownload the R project file for this module here.\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts",
     "crumbs": [
       "Topics",
       "Reproducible report with Quarto in R"

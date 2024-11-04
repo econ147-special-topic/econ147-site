@@ -12,6 +12,11 @@ title: "Exploratory factor analysis"
 
 5. Interpreting the factors
 
+::: callout-note
+
+Download the R project file for this module [here](https://drive.google.com/drive/folders/1TxSHIh7c5yVlcxQH32ui9-rnoqoWC0wH?usp=sharing).
+
+:::
 
 <a href="https://econ147-special-topic.github.io/econ147-lecture/efa" target="_blank" class="btn-slides">View slides in new window</a>
 
