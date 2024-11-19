@@ -30,6 +30,8 @@ website:
             text: "Midterm project exercise"
           - href: "00-efa.qmd"
             text: "Exploratory factor analysis"
+          - href: "00-cfa-cb-sem.qmd"
+            text: "Confirmatory factor analysis & CB-SEM"
 
 
 format:

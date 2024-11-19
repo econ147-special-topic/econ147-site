@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Exploratory factor analysis – Bcon 147</title>
+<title>Confirmatory factor analysis &amp; CB-SEM – Bcon 147</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./00-cfa-cb-sem.html" rel="next">
-<link href="./00-midterm-project.html" rel="prev">
+<link href="./00-efa.html" rel="prev">
 <link href="./plot/Bcon147-hex-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-efa.html">Exploratory factor analysis</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-cfa-cb-sem.html">Confirmatory factor analysis &amp; CB-SEM</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -152,13 +151,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./00-efa.html" class="sidebar-item-text sidebar-link active">
+  <a href="./00-efa.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Exploratory factor analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./00-cfa-cb-sem.html" class="sidebar-item-text sidebar-link">
+  <a href="./00-cfa-cb-sem.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Confirmatory factor analysis &amp; CB-SEM</span></a>
   </div>
 </li>
@@ -175,9 +174,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-efa.html">Exploratory factor analysis</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00-m0-intro-r.html">Topics</a></li><li class="breadcrumb-item"><a href="./00-cfa-cb-sem.html">Confirmatory factor analysis &amp; CB-SEM</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Exploratory factor analysis</h1>
+<h1 class="title">Confirmatory factor analysis &amp; CB-SEM</h1>
 </div>
 
 
@@ -194,13 +193,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ol type="1">
-<li><p>Objectives of factor analysis</p></li>
-<li><p>Designing an Exploratory factor analysis</p></li>
-<li><p>Assumptions in Exploratory factor analysis</p></li>
-<li><p>Deriving factors and assessing overall fit</p></li>
-<li><p>Interpreting the factors</p></li>
-</ol>
+<p>1: CFA-SEM overview</p>
+<p>2: CFA-SEM with Lavaan</p>
+<p>3: Defining constructs</p>
+<p>4: Developing the overall measurement model</p>
+<p>5: Assessing measurement model validity</p>
+<p>6: Specifying the structural model</p>
+<p>7: Assessing structural model validity</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -214,9 +213,9 @@ Note
 <p>Download the R project file for this module <a href="https://drive.google.com/drive/folders/1TxSHIh7c5yVlcxQH32ui9-rnoqoWC0wH?usp=sharing">here</a>.</p>
 </div>
 </div>
-<p><a href="https://econ147-special-topic.github.io/econ147-lecture/efa" target="_blank" class="btn-slides">View slides in new window</a></p>
+<p><a href="https://econ147-special-topic.github.io/econ147-lecture/cfa-cb-sem" target="_blank" class="btn-slides">View slides in new window</a></p>
 <div class="box" style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
-<iframe width="100%" height="100%" src="https://econ147-special-topic.github.io/econ147-lecture/efa" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
+<iframe width="100%" height="100%" src="https://econ147-special-topic.github.io/econ147-lecture/cfa-cb-sem" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0">
 </iframe>
 </div>
 <section id="presentation-keyboard-shortcuts" class="level4">
@@ -808,14 +807,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./00-midterm-project.html" class="pagination-link" aria-label="Midterm project exercise">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Midterm project exercise</span>
+      <a href="./00-efa.html" class="pagination-link" aria-label="Exploratory factor analysis">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Exploratory factor analysis</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./00-cfa-cb-sem.html" class="pagination-link" aria-label="Confirmatory factor analysis &amp; CB-SEM">
-        <span class="nav-page-text">Confirmatory factor analysis &amp; CB-SEM</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
